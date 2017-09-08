@@ -184,7 +184,7 @@ public class RootLayout extends AnchorPane{
 					
 						DraggableNode node = new DraggableNode();
 						
-						node.setType(DragIconType.valueOf(container.getValue("type")));
+						node.setType(DragIconType.valueOf(container.getValue("type").toString()));
 						right_pane.getChildren().add(node);
 
 						Point2D cursorPoint = container.getValue("scene_coords");

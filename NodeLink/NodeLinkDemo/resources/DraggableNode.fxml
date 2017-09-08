@@ -24,7 +24,7 @@
                         <Insets right="10.0" />
                      </padding>
                   </Label>
-                  <Label fx:id="title_bar" text="Label" />
+                  <Label fx:id="title_bar" text="Nodo" />
                </children>
             </GridPane>
             <HBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="66.0">
